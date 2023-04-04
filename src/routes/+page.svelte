@@ -12,10 +12,9 @@
 	<div class="hero-content flex-col lg:flex-row">
 		<AvatarCard imgUrl={imgHeadShot} imgAltText="rjsiii" />
 		<div class="lg:pl-10">
-			<h1 class="md:text-5xl font-bold">Hey there, I'm Richard.</h1>
+			<h1 class="text-center lg:text-left md:text-5xl font-bold">Hey there, I'm Richard.</h1>
 			<p class="py-6">
-				Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-				quasi. In deleniti eaque aut repudiandae et a id nisi.
+ 				Website is currently under construction, but will get there soon enough!
 			</p>
 		</div>
 	</div>

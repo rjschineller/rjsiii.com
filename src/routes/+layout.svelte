@@ -17,7 +17,7 @@
 	</main>
 
 	<footer>
-		<p>Copywrite Richard Schineller <a href="mailto:rjs@rjsiii.com">rjsiii.com</a> © 2022</p>
+		<p>Made with ❤️ by Richard Schineller © 2022 <a href="mailto:rjs@rjsiii.com">rjsiii.com</a></p>
 	</footer>
 </div>
 

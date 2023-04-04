@@ -7,26 +7,26 @@
 	import gitlabIcon from '$lib/images/gitlab.svg?raw';
 </script>
 
-<div class="p-4">
-	<div class="avatar">
+<div class="p-4 grid content-center">
+	<div class="avatar justify-center">
 		<div class="w-72 rounded-full">
 			<img src={imgUrl} alt={imgAltText} />
 		</div>
 	</div>
 	<div class="divider" />
-	<div>
-		<button class="btn btn-block btn-outline btn-info gap-1">
+	<div class="space-y-2">
+		<a href="https://www.linkedin.com/in/rjschineller/" class="btn btn-block btn-outline btn-info gap-1">
 			<span class="h-6 w-6">{@html linkedInIcon}</span>
 			LinkedIn
-		</button>
-		<button class="btn btn-block btn-outline btn-warning gap-1">
+		</a>
+		<a href="https://gitlab.com/RJSchineller" class="btn btn-block btn-outline btn-warning gap-1">
 			<span class="h-6 w-6">{@html gitlabIcon}</span>
 			GitLab
-		</button>
-		<button class="btn btn-block btn-outline gap-1">
+		</a>
+		<a href="https://github.com/rjschineller" class="btn btn-block btn-outline gap-1">
 			<span class="h-6 w-6">{@html githubIcon}</span>
 			GitHub
-		</button>
+		</a>
 	</div>
 </div>
 
