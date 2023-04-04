@@ -15,15 +15,15 @@
 	</div>
 	<div class="divider" />
 	<div class="space-y-2">
-		<a href="https://www.linkedin.com/in/rjschineller/" class="btn btn-block btn-outline btn-info gap-1">
+		<a href="https://www.linkedin.com/in/rjschineller/" target="_blank" rel="noreferrer" class="btn btn-block btn-outline btn-info gap-1">
 			<span class="h-6 w-6">{@html linkedInIcon}</span>
 			LinkedIn
 		</a>
-		<a href="https://gitlab.com/RJSchineller" class="btn btn-block btn-outline btn-warning gap-1">
+		<a href="https://gitlab.com/RJSchineller" target="_blank" rel="noreferrer" class="btn btn-block btn-outline btn-warning gap-1">
 			<span class="h-6 w-6">{@html gitlabIcon}</span>
 			GitLab
 		</a>
-		<a href="https://github.com/rjschineller" class="btn btn-block btn-outline gap-1">
+		<a href="https://github.com/rjschineller" target="_blank" rel="noreferrer" class="btn btn-block btn-outline gap-1">
 			<span class="h-6 w-6">{@html githubIcon}</span>
 			GitHub
 		</a>
