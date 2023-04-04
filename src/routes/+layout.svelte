@@ -1,9 +1,15 @@
 <script>
-	import Header from './Header.svelte';
-	import './styles.css';
+	import { onMount } from 'svelte';
+	import { themeChange } from 'theme-change';
+	import '../app.css';
+	import Header from '$lib/components/Header.svelte';
+
+	onMount(() => {
+		themeChange(false);
+	});
 </script>
 
-<div class="app">
+<div class="app" data-theme="lofi">
 	<Header />
 
 	<main>
@@ -11,7 +17,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<p>Copywrite Richard Schineller <a href="mailto:rjs@rjsiii.com">rjsiii.com</a> © 2022</p>
 	</footer>
 </div>
 
@@ -28,7 +34,6 @@
 		flex-direction: column;
 		padding: 1rem;
 		width: 100%;
-		max-width: 64rem;
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
