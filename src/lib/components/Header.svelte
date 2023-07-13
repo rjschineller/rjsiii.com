@@ -44,10 +44,10 @@
 				<li><a href="/blog">Blog</a></li>
 			</ul>
 		</div>
-		<!-- <div class="navbar-end">
-			<div class="menu menu-normal px-1">
+		<div class="navbar-end">
+			<!-- <div class="menu menu-normal px-1">
 				<input data-toggle-theme="business" type="checkbox" class="toggle rounded-sm" checked />
-			</div>
-		</div> -->
+			</div> -->
+		</div>
 	</div>
 </header>
