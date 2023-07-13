@@ -25,10 +25,10 @@
 					class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
 				>
 					<li><a href="/">Home</a></li>
-					<li>
+					<!-- <li>
 						<a href="/about"> About </a>
 					</li>
-					<li><a href="/career">Career</a></li>
+					<li><a href="/career">Career</a></li> -->
 					<li><a href="/blog">Blog</a></li>
 				</ul>
 			</div>
@@ -37,17 +37,17 @@
 		<div class="navbar-center hidden lg:flex">
 			<ul class="menu menu-horizontal px-1">
 				<li><a href="/">Home</a></li>
-				<li>
+				<!-- <li>
 					<a href="/about"> About </a>
 				</li>
-				<li><a href="/career">Career</a></li>
+				<li><a href="/career">Career</a></li> -->
 				<li><a href="/blog">Blog</a></li>
 			</ul>
 		</div>
-		<div class="navbar-end">
+		<!-- <div class="navbar-end">
 			<div class="menu menu-normal px-1">
 				<input data-toggle-theme="business" type="checkbox" class="toggle rounded-sm" checked />
 			</div>
-		</div>
+		</div> -->
 	</div>
 </header>
